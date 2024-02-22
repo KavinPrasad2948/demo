@@ -59,7 +59,7 @@
  let arr =["kavin","k"];
  let arr1 = [3,4];
  console.log(...arr);
- arr2= ...arr;
+ arr2= [...arr];
  console.log(typeof(arr2));
 
   
