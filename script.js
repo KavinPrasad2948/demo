@@ -56,10 +56,15 @@
 //  (function hi(num1,num2)  {console.log(num1*num2)})(5,2)
 
 // Spread Operators
- let arr =["kavin","k"];
- let arr1 = [3,4];
- console.log(...arr);
- arr2= [...arr];
- console.log(typeof(arr2));
-
+//  let arr =["kavin","k"];
+//  let arr1 = [3,4];
+//  console.log(...arr);
+//  arr2= [...arr];
+//  console.log(typeof(arr2));
+function fun(name,len,...args){
+  console.log(name,len,args);
+}
+fun("kavin",3,1,2,3);
+fun("prasad",4,3,4,5,6);
+fun("san",6,4,5,6,7,8,8);
   
