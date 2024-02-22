@@ -44,8 +44,22 @@
 
    var a= 1;
   }
-  console.log(a);   */
-  const req =new XMLHttpRequest();
+  console.log(a);*/   
+    
+  // !this is arror function
 
+ // const odd = (num1,num2) => console.log(num1*num2);
 
+ // let a =4;
+ // let b= 5;
+  //odd(a,b);
+//  (function hi(num1,num2)  {console.log(num1*num2)})(5,2)
 
+// Spread Operators
+ let arr =["kavin","k"];
+ let arr1 = [3,4];
+ console.log(...arr);
+ arr2= ...arr;
+ console.log(typeof(arr2));
+
+  
